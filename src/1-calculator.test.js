@@ -14,7 +14,7 @@ describe("calculator", () => {
     expect(calculator(4, 3, "*")).toBe(12);
   });
 
-  /*test("divides two numbers", () => {
+  test("divides two numbers", () => {
     expect(calculator(10, 2, "/")).toBe(5);
   });
 
@@ -28,5 +28,5 @@ describe("calculator", () => {
 
   test("returns error if y is not a number", () => {
     expect(calculator(3, "b", "+")).toBe("is empty");
-  }); */
+  });
 });
