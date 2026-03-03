@@ -10,11 +10,11 @@ describe("calculator", () => {
     expect(calculator(5, 2, "-")).toBe(3);
   });
 
-  /*test("multiplies two numbers", () => {
+  test("multiplies two numbers", () => {
     expect(calculator(4, 3, "*")).toBe(12);
   });
 
-  test("divides two numbers", () => {
+  /*test("divides two numbers", () => {
     expect(calculator(10, 2, "/")).toBe(5);
   });
 

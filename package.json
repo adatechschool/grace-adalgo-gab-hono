@@ -3,6 +3,6 @@
     "test": "vitest"
   },
   "dependencies": {
-    "vitest": "^4.0.18"
+    "vitest": "^2.0.0"
   }
 }
