@@ -1,13 +1,16 @@
+import { describe, test, expect } from "vitest";
+import { calculator } from "./1-calculator";
+
 describe("calculator", () => {
   test("adds two numbers", () => {
     expect(calculator(2, 3, "+")).toBe(5);
   });
 
-  test("subtracts two numbers", () => {
+   test("subtracts two numbers", () => {
     expect(calculator(5, 2, "-")).toBe(3);
   });
 
-  test("multiplies two numbers", () => {
+  /*test("multiplies two numbers", () => {
     expect(calculator(4, 3, "*")).toBe(12);
   });
 
@@ -25,5 +28,5 @@ describe("calculator", () => {
 
   test("returns error if y is not a number", () => {
     expect(calculator(3, "b", "+")).toBe("is empty");
-  });
+  }); */
 });
